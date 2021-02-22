@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    background-color: #f7e2d1 !important;
+ }
+
+ .btn-primary {
+     background-color: #698a5d !important;
+     border-color: #698a5d !important;
+     text-align: center;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     margin-right: 20px;
+ }
+
+ .btn-primary:hover {
+     background-color: #f5c722 !important;
+     color: #375424 !important;
+ }
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #375424; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    vertical-align: middle;
+    color: #f5c722;
+    font-size: 40px;
+    font-style: italic;
+  }
+
+  #navbar a:hover{
+    color: #f7a71a;
+    text-decoration: none;
+  }
